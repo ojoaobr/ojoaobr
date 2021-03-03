@@ -3,7 +3,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ojoaobr" alt="ojoaobr" /></p>
 
 - 👨‍💻 Desenvolvedor de sistemas: <br/>
---🌐 Web
+--🌐 Web <br/>
 -- 📱 Mobile
 
 <p align="center">
