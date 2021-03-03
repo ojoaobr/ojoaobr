@@ -13,7 +13,7 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="30" height="30"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></p><p align="center">
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=ojoaobr&show_icons=true&theme=midnight-purple&locale=pt-br" alt="ojoaobr"/> 
+<img src="https://github-readme-stats.vercel.app/api?username=ojoaobr&show_icons=true&theme=midnight-purple&locale=pt-br&hide_border" alt="ojoaobr"/> 
 </p>
 
 <p align="center">
