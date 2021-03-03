@@ -2,7 +2,7 @@
 <h3 align="center">Um apaixonado por tecnologia e programador nas horas vagas.</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ojoaobr" alt="ojoaobr" /></p>
 
-- 👨‍💻 Desenvolvedor de sistemas: 
+- 👨‍💻 Desenvolvedor de sistemas: <br/>
 --🌐 Web
 -- 📱 Mobile
 
