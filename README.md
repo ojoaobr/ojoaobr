@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px"> Olá , Eu sou o João!</h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px"> Olá, Eu sou o João!</h1>
 <h3 align="center">Um jovem apaixonado por tecnologia e programador nas horas vagas.</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ojoaobr" alt="ojoaobr" /></p>
 
