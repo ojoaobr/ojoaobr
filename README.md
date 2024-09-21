@@ -15,7 +15,7 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
 </p>
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=ojoaobr&show_icons=true&theme=midnight-purple&locale=pt-br&hide_border=true&custom_title=Estat%C3%ADsticas%20de%20Jo%C3%A3o%20Pedro%20no%20GitHub" alt="ojoaobr"/> 
+<img src="https://github-readme-stats.vercel.app/api?username=ojoaobr&show_icons=true&theme=github_dark&locale=pt-br&hide_border=true&custom_title=Estat%C3%ADsticas%20de%20Jo%C3%A3o%20Pedro%20no%20GitHub" alt="ojoaobr"/> 
 </p>
 
 <p align="center">
