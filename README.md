@@ -1,28 +1,29 @@
 <h1 align="center"><img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px"> Olá, Eu sou o João!</h1>
 <h3 align="center">Um jovem apaixonado por tecnologia e programador nas horas vagas.</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ojoaobr" alt="ojoaobr" /></p>
-
-- 👨‍💻 Desenvolvedor de sistemas: <br/>
---🌐 Web <br/>
--- 💾 Back-end <br/>
--- 📱 Mobile
+👨‍💻 Back-end Software Engineer <br/>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="30" height="30"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/androidstudio/androidstudio-original.svg" alt="androidstudio" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="sql" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
-</p>
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=ojoaobr&show_icons=true&theme=github_dark&locale=pt-br&hide_border=true&custom_title=Estat%C3%ADsticas%20de%20Jo%C3%A3o%20Freitas%20no%20GitHub" alt="ojoaobr"/> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg" alt="csharp" width="45" height="45" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" alt="dotnet" width="45" height="45" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="azuresql" width="45" height="45" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg" alt="mongodb" width="45" height="45" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-plain-wordmark.svg" alt="redis" width="45" height="45" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original-wordmark.svg" alt="rabbitmq" width="45" height="45" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain-wordmark.svg" alt="docker" width="45" height="45" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="aws" width="45" height="45" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/datadog/datadog-original-wordmark.svg" alt="datadog" width="45" height="45" />
 </p>
 
 <p align="center">
-<a href="https://github.com/ojoaobr" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="ojoaobr" height="20" width="20" /></a>
-<a href="https://www.linkedin.com/in/ojoaobr/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="ojoaobr" height="20" width="20" /></a>
-<a href="mailto:joaopedroaf03@gmail.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/gmail.svg" alt="ojoaobr" height="20" width="20" /></a>
-<a href="https://www.instagram.com/ojoaobr/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="ojoaobr" height="20" width="20" /></a>
+<img src="https://github-readme-stats.vercel.app/api?username=ojoaobr&show_icons=true&theme=dark&locale=pt-br&hide_border=true&custom_title=Estat%C3%ADsticas%20de%20Jo%C3%A3o%20Freitas%20no%20GitHub" alt="ojoaobr"/> 
+</p>
+
+<p align="center">
+<a href="https://github.com/ojoaobr" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="ojoaobr" height="25" width="25" /></a>
+<a href="https://www.linkedin.com/in/ojoaobr/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="ojoaobr" height="25" width="25" /></a>
+<a href="mailto:joaopedroaf03@gmail.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/gmail.svg" alt="ojoaobr" height="25" width="25" /></a>
+<a href="https://www.instagram.com/ojoaobr/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="ojoaobr" height="25" width="25" /></a>
 </p>
 
 <!--
