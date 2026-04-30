@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=ojoaobr&show_icons=true&theme=transparent&hide_border=true&custom_title=Joao Freitas github stats" alt="ojoaobr"/> 
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=ojoaobr&show_icons=true&theme=transparent&hide_border=true&custom_title=Joao%20Freitas%20github%20stats" alt="ojoaobr"/> 
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojoaobr&layout=compact&theme=transparent&hide_border=true" />
 </p>
 
