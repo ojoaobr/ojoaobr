@@ -15,13 +15,40 @@ concurrency:
   group: metrics
   cancel-in-progress: true
 
+env:
+  # Matrix theme shared by every card
+  MATRIX_CSS: |
+    svg:not(svg svg) { background: #0D0208; border-radius: 10px; box-shadow: inset 0 0 0 2px #008F11; }
+    .items-wrapper { padding: 4px 10px 6px; box-sizing: border-box; }
+    h2, h3, .field, small, span { color: #00FF41 !important; font-family: 'Courier New', Courier, monospace !important; }
+    h2 svg, .field > svg { fill: #00FF41 !important; }
+
 jobs:
-  languages:
+  metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Stats
+        uses: lowlighter/metrics@latest
         with:
           # Classic PAT with `repo` + `read:org` scopes, stored as a repository secret
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ojoaobr
+          filename: assets/stats.svg
+          committer_message: "chore: update stats metrics"
+          template: classic
+          config_timezone: America/Sao_Paulo
+          config_display: regular
+          extras_css: ${{ env.MATRIX_CSS }}
+
+          base: activity, community, repositories
+          repositories_affiliations: owner, collaborator, organization_member
+
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+      - name: Languages
+        uses: lowlighter/metrics@latest
+        with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: ojoaobr
           filename: assets/languages.svg
@@ -29,10 +56,10 @@ jobs:
           template: classic
           config_timezone: America/Sao_Paulo
           config_display: regular
+          extras_css: ${{ env.MATRIX_CSS }}
 
-          # Only the languages card, no header/activity/etc.
+          # Only the languages card
           base: ""
-
           # Include private repos you own + org repos you contribute to
           repositories_affiliations: owner, collaborator, organization_member
 
@@ -45,9 +72,3 @@ jobs:
           plugin_languages_colors: >-
             0:#00FF41, 1:#00CC33, 2:#00A62A, 3:#008F11,
             4:#2BFF88, 5:#6BFF9F, 6:#00662B, 7:#B6FFC7
-
-          # Matrix theme
-          extras_css: |
-            svg { background: #0D0208; border-radius: 10px; box-shadow: inset 0 0 0 2px #008F11; }
-            h2, .field, .field svg, span, small { color: #00FF41 !important; fill: #00FF41 !important; font-family: 'Courier New', Courier, monospace !important; }
-            h2 svg { fill: #00FF41 !important; }
