@@ -1,43 +1,53 @@
-<h1 align="center"><img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px"> Hi, I'm João!</h1>
-<h3 align="center">A young technology enthusiast who enjoys building software in his spare time.</h3>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ojoaobr" alt="ojoaobr" /></p>
-👨‍💻 Back-end Software Engineer <br/>
-
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg" alt="csharp" width="45" height="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" alt="dotnet" width="45" height="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="azuresql" width="45" height="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg" alt="mongodb" width="45" height="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-plain-wordmark.svg" alt="redis" width="45" height="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original-wordmark.svg" alt="rabbitmq" width="45" height="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain-wordmark.svg" alt="docker" width="45" height="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="aws" width="45" height="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/datadog/datadog-original-wordmark.svg" alt="datadog" width="45" height="45"/>
+  <img src="./assets/header.svg" width="100%" alt="João Freitas — Matrix code rain header"/>
 </p>
 
 <p align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=ojoaobr&show_icons=true&theme=transparent&hide_border=true&custom_title=Joao%20Freitas%20github%20stats" alt="ojoaobr"/> 
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ojoaobr&layout=compact&theme=transparent&hide_border=true"/>
+  <a href="https://www.linkedin.com/in/ojoaobr/"><img src="https://img.shields.io/badge/LinkedIn-0D0208?style=for-the-badge&logo=linkedin&logoColor=00FF41" alt="LinkedIn"/></a>
+  <a href="mailto:joaopedroaf03@gmail.com"><img src="https://img.shields.io/badge/Email-0D0208?style=for-the-badge&logo=gmail&logoColor=00FF41" alt="Email"/></a>
+  <a href="https://www.instagram.com/ojoaobr/"><img src="https://img.shields.io/badge/Instagram-0D0208?style=for-the-badge&logo=instagram&logoColor=00FF41" alt="Instagram"/></a>
+  <img src="https://komarev.com/ghpvc/?username=ojoaobr&style=for-the-badge&color=008F11&label=VISITORS" alt="Profile views"/>
+</p>
+
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
+<p align="center">
+  <img src="./assets/terminal.svg" width="100%" alt="whoami: João Freitas, Software Engineer with 5 years of .NET Core. Building back-end systems at LATAM's largest car rental company: event-driven messaging with RabbitMQ and Kafka, SQL Server and MongoDB tuning, Datadog observability, legacy modernization."/>
+</p>
+
+> [!NOTE]
+> From my early days as an intern building React front-ends to engineering enterprise-level back-end systems today — always with a focus on clean code and performance.
+
+### `> ls ./stack`
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,rabbitmq,kafka,redis,mongodb,aws,azure,docker&theme=dark&perline=9" alt="C#, .NET, RabbitMQ, Kafka, Redis, MongoDB, AWS, Azure, Docker"/>
+  <br/>
+  <img src="https://img.shields.io/badge/ASP.NET_Core-0D0208?style=flat-square&logo=dotnet&logoColor=00FF41" alt="ASP.NET Core"/>
+  <img src="https://img.shields.io/badge/SQL_Server-0D0208?style=flat-square&logo=microsoftsqlserver&logoColor=00FF41" alt="SQL Server"/>
+  <img src="https://img.shields.io/badge/Datadog-0D0208?style=flat-square&logo=datadog&logoColor=00FF41" alt="Datadog"/>
+  <img src="https://img.shields.io/badge/xUnit-0D0208?style=flat-square&logo=dotnet&logoColor=00FF41" alt="xUnit"/>
+  <img src="https://img.shields.io/badge/Gatling-0D0208?style=flat-square&logo=gatling&logoColor=00FF41" alt="Gatling"/>
+</p>
+
+### `> ls ./projects`
+
+| Program | What it does | Stack |
+|---|---|---|
+| [`clone-tabnews`](https://github.com/ojoaobr/clone-tabnews) | Implementation of [TabNews](https://www.tabnews.com.br/), built during the [curso.dev](https://curso.dev/) course | `JavaScript` |
+| [`test-framework`](https://github.com/ojoaobr/test-framework) | React project developed for an internship program | `React` `JavaScript` |
+| [`Pedra_Papel_Tesoura`](https://github.com/ojoaobr/Pedra_Papel_Tesoura) | Rock-paper-scissors minigame | `Python` |
+
+### `> ./stats --live`
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ojoaobr&show_icons=true&include_all_commits=true&hide_title=true&bg_color=0D0208&text_color=00FF41&icon_color=00FF41&title_color=00FF41&border_color=008F11&border_radius=10" alt="GitHub stats"/>
 </p>
 
 <p align="center">
-<a href="https://github.com/ojoaobr" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="ojoaobr" height="25" width="25"/></a>
-<a href="https://www.linkedin.com/in/ojoaobr/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="ojoaobr" height="25" width="25"/></a>
-<a href="mailto:joaopedroaf03@gmail.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/gmail.svg" alt="ojoaobr" height="25" width="25"/></a>
-<a href="https://www.instagram.com/ojoaobr/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="ojoaobr" height="25" width="25"/></a>
+  <img src="https://streak-stats.demolab.com?user=ojoaobr&background=0D0208&border=008F11&stroke=008F11&ring=00FF41&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=008F11&dates=008F11&border_radius=10" alt="GitHub streak"/>
 </p>
 
-<!--
-**ojoaobr/ojoaobr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center"><code>Knock, knock, recruiter... let's connect. 🐇</code></p>
