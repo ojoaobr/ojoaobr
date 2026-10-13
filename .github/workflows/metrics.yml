@@ -1,0 +1,53 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # daily, 03:00 in São Paulo
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/metrics.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: metrics
+  cancel-in-progress: true
+
+jobs:
+  languages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Classic PAT with `repo` + `read:org` scopes, stored as a repository secret
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ojoaobr
+          filename: assets/languages.svg
+          committer_message: "chore: update languages metrics"
+          template: classic
+          config_timezone: America/Sao_Paulo
+          config_display: regular
+
+          # Only the languages card, no header/activity/etc.
+          base: ""
+
+          # Include private repos you own + org repos you contribute to
+          repositories_affiliations: owner, collaborator, organization_member
+
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 2%
+          plugin_languages_other: yes
+          plugin_languages_details: percentage
+          plugin_languages_ignored: html, css, scss, dockerfile, shell, powershell, makefile, batchfile, procfile
+          plugin_languages_colors: >-
+            0:#00FF41, 1:#00CC33, 2:#00A62A, 3:#008F11,
+            4:#2BFF88, 5:#6BFF9F, 6:#00662B, 7:#B6FFC7
+
+          # Matrix theme
+          extras_css: |
+            svg { background: #0D0208; border: 2px solid #008F11; border-radius: 10px; }
+            h2, .field, .field svg, span, small { color: #00FF41 !important; fill: #00FF41 !important; font-family: 'Courier New', Courier, monospace !important; }
+            h2 svg { fill: #00FF41 !important; }

@@ -45,6 +45,11 @@
 </p>
 
 <p align="center">
+  <!-- Generated daily by .github/workflows/metrics.yml (includes private and organization repositories) -->
+  <img src="./assets/languages.svg" alt="Top languages (public and private repositories)"/>
+</p>
+
+<p align="center">
   <img src="https://streak-stats.demolab.com?user=ojoaobr&background=0D0208&border=008F11&stroke=008F11&ring=00FF41&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=008F11&dates=008F11&border_radius=10" alt="GitHub streak"/>
 </p>
 
