@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="24" viewBox="0 0 900 24">
+<style>
+  text { font: 13px 'Courier New', Courier, monospace; fill: #008F11; }
+  .m { animation: slide 12s linear infinite; }
+  @keyframes slide { to { transform: translateX(-858.0px); } }
+</style>
+<defs><linearGradient id="f" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".15" stop-color="#fff"/><stop offset=".85" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="mk"><rect width="900" height="24" fill="url(#f)"/></mask></defs>
+<g mask="url(#mk)"><g class="m">
+<text x="0" y="16" textLength="858.0">10010000001100011011101101011000101110100110111111011010001111000011110010000011010110011000001000111001110000</text>
+<text x="858.0" y="16" textLength="858.0">10010000001100011011101101011000101110100110111111011010001111000011110010000011010110011000001000111001110000</text>
+</g></g>
+</svg>

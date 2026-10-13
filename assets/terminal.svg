@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440">
+<style>
+  text { font: 14px 'Courier New', Courier, monospace; white-space: pre; }
+  .p, .o { opacity: 0; animation: fadein .01s forwards; }
+  .p { fill: #00FF41; font-weight: bold; }
+  .c { fill: #D7FFD9; font-weight: normal; }
+  .o { fill: #00FF41; opacity: 0; }
+  .cover { opacity: 0; }
+  .blink { opacity: 0; animation: fadein .01s forwards, blink 1s step-end infinite; }
+  @keyframes fadein { to { opacity: 1; } }
+  @keyframes blink { 50% { fill-opacity: 0; } }
+  @keyframes type { to { transform: translateX(var(--d)); } }
+  .title { font: 13px 'Courier New', Courier, monospace; fill: #008F11; }
+</style>
+<defs>
+  <pattern id="crt" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".3"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="1.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="1" y="1" width="898" height="438" rx="10" fill="#0D0208" stroke="#008F11" stroke-width="2"/>
+<rect x="1" y="1" width="898" height="30" rx="10" fill="#03160A"/>
+<rect x="1" y="20" width="898" height="11" fill="#03160A"/>
+<line x1="1" y1="31" x2="899" y2="31" stroke="#008F11" stroke-width="1"/>
+<circle cx="22" cy="16" r="6" fill="#FF5F56"/><circle cx="42" cy="16" r="6" fill="#FFBD2E"/><circle cx="62" cy="16" r="6" fill="#27C93F"/>
+<text x="450.0" y="20" text-anchor="middle" class="title">joao@matrix: ~ — zsh</text>
+<g filter="url(#glow)">
+<text x="20" y="52" class="p" style="animation-delay:0.60s">joao@matrix:~$ <tspan class="c">whoami</tspan></text>
+<rect x="146.0" y="37" width="62.4" height="20" fill="#0D0208" class="cover" style="animation:fadein .01s 0.60s forwards, type 0.42s steps(6) 0.90s forwards;--d:50.4px"/>
+<text x="20" y="74" class="o" style="animation-delay:1.57s">João Freitas — Software Engineer · .NET Core · 5 years</text>
+<text x="20" y="118" class="p" style="animation-delay:1.75s">joao@matrix:~$ <tspan class="c">cat about.txt</tspan></text>
+<rect x="146.0" y="103" width="121.2" height="20" fill="#0D0208" class="cover" style="animation:fadein .01s 1.75s forwards, type 0.91s steps(13) 2.05s forwards;--d:109.2px"/>
+<text x="20" y="140" class="o" style="animation-delay:3.21s">&gt; Building back-end systems at LATAM's largest car rental company</text>
+<text x="20" y="162" class="o" style="animation-delay:3.39s">&gt; Event-driven messaging with RabbitMQ &amp; Kafka at high volume</text>
+<text x="20" y="184" class="o" style="animation-delay:3.57s">&gt; Database performance tuning on SQL Server &amp; MongoDB</text>
+<text x="20" y="206" class="o" style="animation-delay:3.75s">&gt; Observability &amp; reliability with Datadog</text>
+<text x="20" y="228" class="o" style="animation-delay:3.93s">&gt; Modernizing legacy apps with clean architecture patterns</text>
+<text x="20" y="272" class="p" style="animation-delay:4.11s">joao@matrix:~$ <tspan class="c">./stack --list</tspan></text>
+<rect x="146.0" y="257" width="129.6" height="20" fill="#0D0208" class="cover" style="animation:fadein .01s 4.11s forwards, type 0.98s steps(14) 4.41s forwards;--d:117.6px"/>
+<text x="20" y="294" class="o" style="animation-delay:5.64s">[back-end]   C# · .NET Core · ASP.NET Core</text>
+<text x="20" y="316" class="o" style="animation-delay:5.82s">[messaging]  RabbitMQ · Kafka · Redis</text>
+<text x="20" y="338" class="o" style="animation-delay:6.00s">[data]       SQL Server · MongoDB</text>
+<text x="20" y="360" class="o" style="animation-delay:6.18s">[cloud/ops]  AWS · Azure · Docker · Datadog</text>
+<text x="20" y="382" class="o" style="animation-delay:6.36s">[testing]    xUnit · Gatling</text>
+<text x="20" y="426" class="p" style="animation-delay:6.54s">joao@matrix:~$ </text>
+<rect x="148.0" y="412" width="9" height="18" fill="#00FF41" class="blink" style="animation-delay:6.54s,6.54s"/>
+</g>
+<rect x="2" y="32" width="896" height="406" fill="url(#crt)"/>
+</svg>
