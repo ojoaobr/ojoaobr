@@ -79,6 +79,9 @@ jobs:
           plugin_languages_other: yes
           plugin_languages_details: percentage
           plugin_languages_ignored: html, css, scss, dockerfile, shell, powershell, makefile, batchfile, procfile
-          plugin_languages_colors: >-
-            0:#00FF41, 1:#00CC33, 2:#00A62A, 3:#008F11,
-            4:#2BFF88, 5:#6BFF9F, 6:#00662B, 7:#B6FFC7
+          # Default GitHub language colors; percentages take the color of their dot
+          extras_js: |
+            document.querySelectorAll(".field.language").forEach(item => {
+              const color = item.querySelector("path")?.getAttribute("fill")
+              if (color) item.querySelectorAll("small, small div").forEach(el => el.style.setProperty("color", color, "important"))
+            })
