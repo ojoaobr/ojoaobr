@@ -32,45 +32,45 @@ svg.calendar text { fill: #00FF41 !important; font-family: 'Courier New', Courie
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="246.16702247515246" height="8" fill="#00ff41"/>
-                    <rect mask="url(#languages-bar)" x="246.16702247515246" y="0" width="115.05248765912388" height="8" fill="#00cc33"/>
-                    <rect mask="url(#languages-bar)" x="361.21951013427633" y="0" width="27.954199306313082" height="8" fill="#00a62a"/>
-                    <rect mask="url(#languages-bar)" x="389.17370944058945" y="0" width="15.90104328003152" height="8" fill="#008f11"/>
-                    <rect mask="url(#languages-bar)" x="405.07475272062095" y="0" width="54.92524727937905" height="8" fill="#2bff88"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="246.16702247515246" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="246.16702247515246" y="0" width="115.05248765912388" height="8" fill="#41b883"/>
+                    <rect mask="url(#languages-bar)" x="361.21951013427633" y="0" width="27.954199306313082" height="8" fill="#7355dd"/>
+                    <rect mask="url(#languages-bar)" x="389.17370944058945" y="0" width="15.90104328003152" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="405.07475272062095" y="0" width="54.92524727937905" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#00ff41" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#f1e05a" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 JavaScript
                             </div>
-                            <small>
-                                <div>53.51%</div>
+                            <small style="color: rgb(241, 224, 90) !important;">
+                                <div style="color: rgb(241, 224, 90) !important;">53.51%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#00a62a" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#7355dd" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 C#
                             </div>
-                            <small>
-                                <div>6.08%</div>
+                            <small style="color: rgb(115, 85, 221) !important;">
+                                <div style="color: rgb(115, 85, 221) !important;">6.08%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#2bff88" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 Other
                             </div>
-                            <small>
-                                <div>11.94%</div>
+                            <small style="color: rgb(237, 237, 237) !important;">
+                                <div style="color: rgb(237, 237, 237) !important;">11.94%</div>
                             </small>
                         </div>
                     </section>
@@ -78,23 +78,23 @@ svg.calendar text { fill: #00FF41 !important; font-family: 'Courier New', Courie
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#00cc33" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#41b883" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 Vue
                             </div>
-                            <small>
-                                <div>25.01%</div>
+                            <small style="color: rgb(65, 184, 131) !important;">
+                                <div style="color: rgb(65, 184, 131) !important;">25.01%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#008f11" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#3178c6" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 TypeScript
                             </div>
-                            <small>
-                                <div>3.46%</div>
+                            <small style="color: rgb(49, 120, 198) !important;">
+                                <div style="color: rgb(49, 120, 198) !important;">3.46%</div>
                             </small>
                         </div>
                     </section>
