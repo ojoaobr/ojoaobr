@@ -7,10 +7,9 @@
   @keyframes flicker { 0%,18%,22%,62%,64%,100% { opacity: 1; } 20%,63% { opacity: .35; } }
   @keyframes glitch { 0%,60%,66%,100% { opacity: 0; transform: translate(0,0); } 61% { opacity: .7; transform: translate(-4px,1px); } 63% { opacity: .7; transform: translate(4px,-1px); } 65% { opacity: .5; transform: translate(-2px,0); } }
   .sub { font: 18px 'Courier New', Courier, monospace; fill: #00FF41; }
-  .typing { animation: type 3.2s steps(43) 1s forwards; }
-  @keyframes type { from { transform: translateX(0); } to { transform: translateX(464.4px); } }
-  .cursor { animation: type 3.2s steps(43) 1s forwards, blink 1s step-end infinite; }
   @keyframes blink { 50% { opacity: 0; } }
+  @keyframes show { to { opacity: 1; } }
+  @keyframes hide { to { opacity: 0; } }
   .scan { animation: scan 6s linear infinite; }
   @keyframes scan { from { transform: translateY(-40px); } to { transform: translateY(260px); } }
 </style>
@@ -1058,15 +1057,16 @@
 </g>
 </g>
   <rect width="900" height="260" fill="url(#vignette)"/>
-  <rect x="150" y="70" width="600" height="130" rx="6" fill="#0D0208" opacity=".78"/>
+  <rect x="187.8" y="61" width="524.4" height="134" rx="6" fill="#0D0208" opacity=".78"/>
   <text class="ghost" x="450.0" y="135" text-anchor="middle" fill="#00FFAA">JOÃO FREITAS</text>
   <text class="title" x="450.0" y="135" text-anchor="middle">JOÃO FREITAS</text>
   <text class="ghost" x="450.0" y="135" text-anchor="middle" fill="#3BFF00" style="animation-delay:.08s">JOÃO FREITAS</text>
-  <clipPath id="subclip"><rect x="-4" y="-20" width="480.4" height="30"/></clipPath>
-  <g transform="translate(217.8,175)" clip-path="url(#subclip)">
+  <clipPath id="subclip0"><rect x="-4" y="-20" width="480.4" height="30"/></clipPath>
+  <style>@keyframes type0 { to { transform: translateX(464.4px); } }</style>
+  <g transform="translate(217.8,175)" clip-path="url(#subclip0)">
     <text class="sub" x="0" y="0" textLength="464.4">Wake up, dev... follow the white rabbit(MQ)</text>
-    <rect class="typing" x="0" y="-18" width="484.4" height="26" fill="#0D0208"/>
-    <rect class="cursor" x="2" y="-15" width="10" height="20" fill="#00FF41"/>
+    <rect x="0" y="-18" width="484.4" height="26" fill="#0D0208" style="animation: type0 3.23s steps(43) 1.00s forwards"/>
+    <rect class="cursor" x="2" y="-15" width="10.8" height="20" fill="#00FF41" style="opacity:1;animation: show 0s 1.00s forwards, type0 3.23s steps(43) 1.00s forwards, blink 1s step-end infinite"/>
   </g>
   <rect class="scan" width="900" height="40" fill="url(#scanline)"/>
   <rect width="900" height="260" fill="url(#crt)"/>

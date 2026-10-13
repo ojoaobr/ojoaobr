@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="João Freitas — Matrix code rain header"/>
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/ojoaobr/ojoaobr/raw/main/assets/header-mobile.svg"/>
+    <img src="./assets/header.svg" width="100%" alt="João Freitas — Matrix code rain header"/>
+  </picture>
 </p>
 
 <p align="center">
@@ -12,7 +15,10 @@
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
 <p align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="whoami: João Freitas, Software Engineer with 5 years of .NET Core. Building back-end systems at LATAM's largest car rental company: event-driven messaging with RabbitMQ and Kafka, SQL Server and MongoDB tuning, Datadog observability, legacy modernization."/>
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/ojoaobr/ojoaobr/raw/main/assets/terminal-mobile.svg"/>
+    <img src="./assets/terminal.svg" width="100%" alt="whoami: João Freitas, Software Engineer with 5 years of .NET Core. Building back-end systems at LATAM's largest car rental company: event-driven messaging with RabbitMQ and Kafka, SQL Server and MongoDB tuning, Datadog observability, legacy modernization."/>
+  </picture>
 </p>
 
 > [!NOTE]
@@ -37,4 +43,4 @@
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
-<p align="center"><code>Knock, knock, recruiter... let's connect. 🐇</code></p>
+<p align="center"><code>Knock, knock... let's connect 🐇</code></p>
