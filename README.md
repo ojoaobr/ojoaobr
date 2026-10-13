@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ojoaobr/"><img src="https://img.shields.io/badge/LinkedIn-0D0208?style=for-the-badge&logo=linkedin&logoColor=00FF41" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/ojoaobr/"><img src="https://img.shields.io/badge/LinkedIn-0D0208?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjMDBGRjQxIiBkPSJNMTE2IDNIMTJhOC45MSA4LjkxIDAgMDAtOSA4Ljh2MTA0LjQyYTguOTEgOC45MSAwIDAwOSA4Ljc4aDEwNGE4LjkzIDguOTMgMCAwMDktOC44MVYxMS43N0E4LjkzIDguOTMgMCAwMDExNiAzek0zOS4xNyAxMDdIMjEuMDZWNDguNzNoMTguMTF6bS05LTY2LjIxYTEwLjUgMTAuNSAwIDExMTAuNDktMTAuNSAxMC41IDEwLjUgMCAwMS0xMC41NCAxMC40OHpNMTA3IDEwN0g4OC44OVY3OC42NWMwLTYuNzUtLjEyLTE1LjQ0LTkuNDEtMTUuNDRzLTEwLjg3IDcuMzYtMTAuODcgMTVWMTA3SDUwLjUzVjQ4LjczaDE3LjM2djhoLjI0YzIuNDItNC41OCA4LjMyLTkuNDEgMTcuMTMtOS40MUMxMDMuNiA0Ny4yOCAxMDcgNTkuMzUgMTA3IDc1eiIvPjwvc3ZnPg==" alt="LinkedIn"/></a>
   <a href="mailto:joaopedroaf03@gmail.com"><img src="https://img.shields.io/badge/Email-0D0208?style=for-the-badge&logo=gmail&logoColor=00FF41" alt="Email"/></a>
   <a href="https://www.instagram.com/ojoaobr/"><img src="https://img.shields.io/badge/Instagram-0D0208?style=for-the-badge&logo=instagram&logoColor=00FF41" alt="Instagram"/></a>
-  <img src="https://komarev.com/ghpvc/?username=ojoaobr&style=for-the-badge&color=008F11&label=VISITORS" alt="Profile views"/>
+  <img src="https://hits.sh/github.com/ojoaobr.svg?style=for-the-badge&label=VISITORS&color=008f11&labelColor=0d0208" alt="Profile views"/>
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
@@ -21,36 +21,18 @@
 ### `> ls ./stack`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,rabbitmq,kafka,redis,mongodb,aws,azure,docker&theme=dark&perline=9" alt="C#, .NET, RabbitMQ, Kafka, Redis, MongoDB, AWS, Azure, Docker"/>
-  <br/>
-  <img src="https://img.shields.io/badge/ASP.NET_Core-0D0208?style=flat-square&logo=dotnet&logoColor=00FF41" alt="ASP.NET Core"/>
-  <img src="https://img.shields.io/badge/SQL_Server-0D0208?style=flat-square&logo=microsoftsqlserver&logoColor=00FF41" alt="SQL Server"/>
-  <img src="https://img.shields.io/badge/Datadog-0D0208?style=flat-square&logo=datadog&logoColor=00FF41" alt="Datadog"/>
-  <img src="https://img.shields.io/badge/xUnit-0D0208?style=flat-square&logo=dotnet&logoColor=00FF41" alt="xUnit"/>
-  <img src="https://img.shields.io/badge/Gatling-0D0208?style=flat-square&logo=gatling&logoColor=00FF41" alt="Gatling"/>
+  <img src="./assets/stack.svg" width="460" alt="C#, .NET, ASP.NET Core, RabbitMQ, Kafka, Redis, SQL Server, MongoDB, AWS, Azure, Docker, Datadog, xUnit, Gatling"/>
 </p>
-
-### `> ls ./projects`
-
-| Program | What it does | Stack |
-|---|---|---|
-| [`clone-tabnews`](https://github.com/ojoaobr/clone-tabnews) | Implementation of [TabNews](https://www.tabnews.com.br/), built during the [curso.dev](https://curso.dev/) course | `JavaScript` |
-| [`test-framework`](https://github.com/ojoaobr/test-framework) | React project developed for an internship program | `React` `JavaScript` |
-| [`Pedra_Papel_Tesoura`](https://github.com/ojoaobr/Pedra_Papel_Tesoura) | Rock-paper-scissors minigame | `Python` |
 
 ### `> ./stats --live`
 
+<!-- Cards generated daily by .github/workflows/metrics.yml (includes private and organization repositories) -->
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ojoaobr&show_icons=true&include_all_commits=true&hide_title=true&bg_color=0D0208&text_color=00FF41&icon_color=00FF41&title_color=00FF41&border_color=008F11&border_radius=10" alt="GitHub stats"/>
+  <img src="./assets/stats.svg" alt="GitHub stats: activity, community, repositories and contribution calendar"/>
 </p>
 
 <p align="center">
-  <!-- Generated daily by .github/workflows/metrics.yml (includes private and organization repositories) -->
-  <img src="./assets/languages.svg" alt="Top languages (public and private repositories)"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=ojoaobr&background=0D0208&border=008F11&stroke=008F11&ring=00FF41&fire=00FF41&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00FF41&sideLabels=008F11&dates=008F11&border_radius=10" alt="GitHub streak"/>
+  <img src="./assets/languages.svg" alt="Most used languages (public and private repositories)"/>
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
