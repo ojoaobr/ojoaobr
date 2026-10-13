@@ -29,6 +29,7 @@ env:
     [fill="#40c463"] { fill: #00B336 !important; }
     [fill="#30a14e"] { fill: #00E63D !important; }
     [fill="#216e39"] { fill: #7CFF9A !important; }
+    svg.calendar text { fill: #00FF41 !important; font-family: 'Courier New', Courier, monospace; }
 
 jobs:
   metrics:
