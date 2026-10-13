@@ -22,6 +22,12 @@ env:
     .items-wrapper { padding: 4px 10px 6px; box-sizing: border-box; }
     h2, h3, .field, small, span { color: #00FF41 !important; font-family: 'Courier New', Courier, monospace !important; }
     h2 svg, .field > svg { fill: #00FF41 !important; }
+    svg.bar { transform: scaleX(.9565); transform-origin: left center; }
+    path[fill="#ebedf0"] { fill: #0F2A15 !important; }
+    path[fill="#9be9a8"] { fill: #00662B !important; }
+    path[fill="#40c463"] { fill: #00A62A !important; }
+    path[fill="#30a14e"] { fill: #00CC33 !important; }
+    path[fill="#216e39"] { fill: #00FF41 !important; }
 
 jobs:
   metrics:
