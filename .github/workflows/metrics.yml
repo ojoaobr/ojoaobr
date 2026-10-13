@@ -44,6 +44,7 @@ jobs:
           template: classic
           config_timezone: America/Sao_Paulo
           config_display: regular
+          config_padding: 0, 8
           extras_css: ${{ env.MATRIX_CSS }}
 
           base: activity, community, repositories
@@ -62,6 +63,7 @@ jobs:
           template: classic
           config_timezone: America/Sao_Paulo
           config_display: regular
+          config_padding: 0, 8
           extras_css: ${{ env.MATRIX_CSS }}
 
           # Only the languages card
