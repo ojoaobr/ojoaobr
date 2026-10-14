@@ -32,11 +32,11 @@ svg.calendar text { fill: #00FF41 !important; font-family: 'Courier New', Courie
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="246.16702247515246" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="246.16702247515246" y="0" width="115.05248765912388" height="8" fill="#41b883"/>
-                    <rect mask="url(#languages-bar)" x="361.21951013427633" y="0" width="27.954199306313082" height="8" fill="#7355dd"/>
-                    <rect mask="url(#languages-bar)" x="389.17370944058945" y="0" width="15.90104328003152" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="405.07475272062095" y="0" width="54.92524727937905" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="245.9355868861653" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="245.9355868861653" y="0" width="114.94432028569548" height="8" fill="#41b883"/>
+                    <rect mask="url(#languages-bar)" x="360.8799071718608" y="0" width="27.92791797701044" height="8" fill="#7355dd"/>
+                    <rect mask="url(#languages-bar)" x="388.80782514887125" y="0" width="15.886093806783549" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="404.69391895565485" y="0" width="55.30608104434518" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -48,7 +48,7 @@ svg.calendar text { fill: #00FF41 !important; font-family: 'Courier New', Courie
                                 JavaScript
                             </div>
                             <small style="color: rgb(241, 224, 90) !important;">
-                                <div style="color: rgb(241, 224, 90) !important;">53.51%</div>
+                                <div style="color: rgb(241, 224, 90) !important;">53.46%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -59,7 +59,7 @@ svg.calendar text { fill: #00FF41 !important; font-family: 'Courier New', Courie
                                 C#
                             </div>
                             <small style="color: rgb(115, 85, 221) !important;">
-                                <div style="color: rgb(115, 85, 221) !important;">6.08%</div>
+                                <div style="color: rgb(115, 85, 221) !important;">6.07%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -70,7 +70,7 @@ svg.calendar text { fill: #00FF41 !important; font-family: 'Courier New', Courie
                                 Other
                             </div>
                             <small style="color: rgb(237, 237, 237) !important;">
-                                <div style="color: rgb(237, 237, 237) !important;">11.94%</div>
+                                <div style="color: rgb(237, 237, 237) !important;">12.02%</div>
                             </small>
                         </div>
                     </section>
@@ -83,7 +83,7 @@ svg.calendar text { fill: #00FF41 !important; font-family: 'Courier New', Courie
                                 Vue
                             </div>
                             <small style="color: rgb(65, 184, 131) !important;">
-                                <div style="color: rgb(65, 184, 131) !important;">25.01%</div>
+                                <div style="color: rgb(65, 184, 131) !important;">24.99%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -94,7 +94,7 @@ svg.calendar text { fill: #00FF41 !important; font-family: 'Courier New', Courie
                                 TypeScript
                             </div>
                             <small style="color: rgb(49, 120, 198) !important;">
-                                <div style="color: rgb(49, 120, 198) !important;">3.46%</div>
+                                <div style="color: rgb(49, 120, 198) !important;">3.45%</div>
                             </small>
                         </div>
                     </section>
