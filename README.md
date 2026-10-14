@@ -26,7 +26,7 @@
 ### `> ls ./stack`
 
 <p align="center">
-  <img src="./assets/stack.svg" width="460" alt="C#, .NET, ASP.NET Core, RabbitMQ, Kafka, Redis, SQL Server, MongoDB, AWS, Azure, Docker, Datadog, xUnit, Gatling"/>
+  <img src="./assets/stack.svg" alt="Stack — back-end: C#, .NET, ASP.NET Core · messaging: RabbitMQ, Kafka, Redis · databases: SQL Server, MongoDB · cloud/devops: AWS, Azure, Docker · observability: Datadog · testing: xUnit, Gatling · AI tools: Claude, GitHub Copilot, Cursor"/>
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
