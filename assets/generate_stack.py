@@ -5,7 +5,7 @@ Usage: python3 assets/generate_stack.py assets
 import re, sys, os, subprocess
 
 OUT = sys.argv[1] if len(sys.argv) > 1 else "assets"
-SKILLICONS = ["cs", "dotnet", "rabbitmq", "kafka", "redis", "mongodb", "aws", "azure", "docker"]
+SKILLICONS = ["cs", "dotnet", "rabbitmq", "kafka", "redis", "mongodb", "aws", "azure", "docker", "grafana"]
 DEVICON = "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/{name}/{name}-plain.svg"
 SI = "https://cdn.jsdelivr.net/npm/simple-icons@16.35.0/icons/{}.svg"
 
@@ -43,6 +43,7 @@ icons["datadog"] = simple_icon("datadog", "#632CA6")
 icons["xunit"] = text_tile("#1E7B34", "xUnit", ".net")
 icons["gatling"] = simple_icon("gatling", "#F78557")
 
+icons["veracode"] = text_tile("#0F6CBD", "V", "Veracode")
 icons["claude"] = simple_icon("claude", "#D97757")
 icons["copilot"] = simple_icon("githubcopilot", "#242938")
 icons["cursor"] = simple_icon("cursor", "#242938")
@@ -52,7 +53,8 @@ CATEGORIES = [
     ("messaging", ["rabbitmq", "kafka", "redis"]),
     ("databases", ["sqlserver", "mongodb"]),
     ("cloud-devops", ["aws", "azure", "docker"]),
-    ("observability", ["datadog"]),
+    ("observability", ["datadog", "grafana"]),
+    ("security", ["veracode"]),
     ("testing", ["xunit", "gatling"]),
     ("ai-tools", ["claude", "copilot", "cursor"]),
 ]
