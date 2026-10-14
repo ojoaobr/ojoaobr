@@ -26,7 +26,7 @@
 ### `> ls ./stack`
 
 <p align="center">
-  <img src="./assets/stack.svg" alt="Stack — back-end: C#, .NET, ASP.NET Core · messaging: RabbitMQ, Kafka, Redis · databases: SQL Server, MongoDB · cloud/devops: AWS, Azure, Docker · observability: Datadog, Grafana · security: Veracode · testing: xUnit, Gatling · AI tools: Claude, GitHub Copilot, Cursor"/>
+  <img src="./assets/stack.svg" alt="Stack — back-end: C#, .NET, ASP.NET Core · front-end: React, TypeScript · messaging: RabbitMQ, Kafka, Redis · databases: SQL Server, MongoDB · cloud/devops: AWS, Azure, Docker · observability: Datadog, Grafana · security: Veracode · testing: xUnit, Gatling · AI tools: Claude, GitHub Copilot, Cursor"/>
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>

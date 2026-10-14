@@ -5,7 +5,7 @@ Usage: python3 assets/generate_stack.py assets
 import re, sys, os, subprocess
 
 OUT = sys.argv[1] if len(sys.argv) > 1 else "assets"
-SKILLICONS = ["cs", "dotnet", "rabbitmq", "kafka", "redis", "mongodb", "aws", "azure", "docker", "grafana"]
+SKILLICONS = ["cs", "dotnet", "rabbitmq", "kafka", "redis", "mongodb", "aws", "azure", "docker", "grafana", "react", "ts"]
 DEVICON = "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/{name}/{name}-plain.svg"
 SI = "https://cdn.jsdelivr.net/npm/simple-icons@16.35.0/icons/{}.svg"
 
@@ -50,6 +50,7 @@ icons["cursor"] = simple_icon("cursor", "#242938")
 
 CATEGORIES = [
     ("back-end", ["cs", "dotnet", "aspnet"]),
+    ("front-end", ["react", "ts"]),
     ("messaging", ["rabbitmq", "kafka", "redis"]),
     ("databases", ["sqlserver", "mongodb"]),
     ("cloud-devops", ["aws", "azure", "docker"]),
