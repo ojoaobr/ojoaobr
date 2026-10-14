@@ -30,17 +30,6 @@
   <img src="./assets/stack.svg" width="460" alt="C#, .NET, ASP.NET Core, RabbitMQ, Kafka, Redis, SQL Server, MongoDB, AWS, Azure, Docker, Datadog, xUnit, Gatling"/>
 </p>
 
-### `> ./stats --live`
-
-<!-- Cards generated daily by .github/workflows/metrics.yml (includes private and organization repositories) -->
-<p align="center">
-  <img src="./assets/stats.svg" alt="GitHub stats: activity, community, repositories and contribution calendar"/>
-</p>
-
-<p align="center">
-  <img src="./assets/languages.svg" alt="Most used languages (public and private repositories)"/>
-</p>
-
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
 <p align="center"><code>Knock, knock... let's connect 🐇</code></p>
